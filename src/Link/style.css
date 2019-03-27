@@ -1,0 +1,11 @@
+.LinktoHome {
+  font-size: 25px;
+  margin: 10px 0px 0px 15px;
+  color: black;
+}
+
+.LinktoHome > a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}

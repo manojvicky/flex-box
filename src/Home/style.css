@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navContainer {
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flexItem {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 10px 0px 10px;
+  margin: 10px 5px 0px 5px;
+  border-radius: 8px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.flexItem:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #4175b4;
+  border: 2px solid rgba(220, 220, 220, 0.5);
+}
+.flexItem > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: inherit;
+}

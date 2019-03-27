@@ -1,0 +1,137 @@
+.Header {
+  height: 42px;
+  background: #4267b2;
+}
+.headerWrapper {
+  height: 42px;
+  /* background: #4267b2; */
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.icon {
+  background-image: url(https://uploads.codesandbox.io/uploads/user/abec2b4f-7016-41c8-8f44-0c7d7493ef6b/4Yq6-facebookImage.png);
+  display: inline-block;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0px 7px;
+  width: 24px;
+  cursor: pointer;
+}
+.fbicon {
+  background-position: 0 -442px;
+  padding: 0px;
+}
+.inputBox {
+  height: 22px;
+  display: inline-block;
+  border: none;
+  padding: 1px 5px;
+}
+.submitButton {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border: none;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/abec2b4f-7016-41c8-8f44-0c7d7493ef6b/4Yq6-facebookImage.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 1px -1444px;
+}
+.outerforsearch {
+  display: flex;
+}
+.submitBlue {
+  height: 24px;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  border: none;
+  cursor: pointer;
+}
+/* .profileName {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+} */
+.outerforHome {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileName {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  height: 16px;
+  font-weight: 700;
+  padding-left: 8px;
+  padding-right: 12px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.outerforProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileIcon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  /* background: limegreen; */
+  border-radius: 20px;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/abec2b4f-7016-41c8-8f44-0c7d7493ef6b/DmN0-fbdp.jpg);
+}
+.homeName {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0px 10px;
+  height: 16px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.item {
+  height: 24px;
+  margin: 0px 5px;
+}
+.innerItem {
+  display: flex;
+}
+.inneritems {
+  height: 24px;
+  /* cursor: pointer; */
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span.icon.friendReq {
+  background-position: 0px -316px;
+}
+span.icon.Messages {
+  background-position: 0px -717px;
+}
+span.icon.Notifications {
+  background-position: 0px -792px;
+}
+span.icon.help {
+  background-position: 0px -992px;
+}
+span.icon.more {
+  background-position: 0px -842px;
+}
+.adjust {
+  flex: 4 1 100%;
+}
+.pointer {
+  cursor: pointer;
+}
